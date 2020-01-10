@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Sebastian Ertel"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "I'm a researcher and software engineer in the areas of programming languages and compilers with special applications to data processing, distributed and operating systems."
+name                     : &name "Sebastian Ertel"
+description              : &description ""
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,11 +82,7 @@ analytics:
 author:
   name             : "Sebastian Ertel"
   avatar           : "profile.png"
-  bio              : "I graduated in 2008 with a Masters degree in Computational Engineering from the University of Technology, Dresden. 
-  Already in 2006, I moved to Cambridge (US) to join IBM as a software engineer. 
-  I was a lead engineer for the design and implementation of a next generation data integration platform for hierchical data.
-  I returned to Dresden in 2011 as a research assistant in the area of systems engineering focusing on big data and live updates.
-  In 2015, I joined the chair for Compiler Construction to pursue my private project Ohua as the main topic of my Ph.D. I graduated in 2019 with the title Dr.-Ing."
+  bio              : "I'm a researcher and software engineer in the areas of programming languages and compilers with special applications to data processing, distributed and operating systems. Starting February 2020, I will join the [Composable Operating Systems Group at the Barkhausen Institute] (https://www.barkhauseninstitut.org/en/research/research-groups/composable-operating-system) to apply my expertise in programming languages and compilation to operating systems."
   location         : "Dresden"
   employer         :
   pubmed           : 
@@ -259,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
