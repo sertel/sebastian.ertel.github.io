@@ -90,7 +90,7 @@ author:
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
-  bitbucket        : "https://bitbucket.org/sertel/"
+  bitbucket        : "sertel"
   codepen          :
   dribbble         :
   flickr           :
@@ -102,11 +102,11 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/sebastian-ertel-94737927/"
+  linkedin         : "sebastian-ertel-94737927/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : https://stackoverflow.com/users/3333943/sebastian-ertel
+  stackoverflow    : 3333943/sebastian-ertel
   steam            :
   tumblr           :
   twitter          : #"replacethistwitterhandle"
