@@ -29,7 +29,7 @@ publist = {
     "proceeding": {
         "file" : "proceedings.bib",
         "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
+        "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
@@ -46,8 +46,7 @@ publist = {
 html_escape_table = {
     "&": "&amp;",
     '"': "&quot;",
-    "'": "&apos;",
-    "{\&apos;e}" : "é"
+    "'": "&apos;"
     }
 
 def html_escape(text):
@@ -101,7 +100,7 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                citation = citation+" "+author.first_names[0].replace("\\\'{e}", "é")+" "+author.last_names[0]+", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
