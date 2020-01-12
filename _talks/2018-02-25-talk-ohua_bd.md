@@ -3,7 +3,7 @@ title: "Ohua in Big Data Systems"
 collection: talks
 type: "Talk"
 permalink: /talks/2018-02-25-talk-ohua_bd
-venue: "[9th International Workshop on Programming Models and Applications for Multicores and Manycores](https://ppopp18.sigplan.org/track/pmam-2018)"
+venue: "[9th International Workshop on Programming Models and Applications forMulticores and Manycores](https://ppopp18.sigplan.org/track/pmam-2018)"
 date: 2018-02-25
 location: "Vienna, Austria"
 ---
