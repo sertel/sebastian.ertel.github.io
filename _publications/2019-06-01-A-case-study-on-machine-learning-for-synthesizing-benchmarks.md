@@ -6,7 +6,7 @@ date: 2019-06-01
 venue: 'In the proceedings of Proceedings of the 3rd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages (MAPL)'
 paperurl: 'http://doi.acm.org/10.1145/3315508.3329976'
 citation:
-<span style="font-family:Arial; font-size:4em;">' Andr\&apos;{e}s Goens,  Alexander Brauckmann,  Sebastian Ertel,  Chris Cummins,  Hugh Leather,  Jeronimo Castrillon, &quot;A case study on machine learning for synthesizing benchmarks.&quot; In the proceedings of Proceedings of the 3rd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages (MAPL), 2019.'</span>
+' Andr\&apos;{e}s Goens,  Alexander Brauckmann,  Sebastian Ertel,  Chris Cummins,  Hugh Leather,  Jeronimo Castrillon, &quot;A case study on machine learning for synthesizing benchmarks.&quot; In the proceedings of Proceedings of the 3rd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages (MAPL), 2019.'
 ---
 [Access paper here](http://doi.acm.org/10.1145/3315508.3329976){:target="_blank"}
 
