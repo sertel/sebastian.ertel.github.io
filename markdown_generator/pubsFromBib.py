@@ -151,7 +151,7 @@ for pubsource in publist:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
             if "local" in b:
-                md += "or [Access local copy here](files/" + b["local"] + "){:target=\"_blank\"}\n"
+                md += "or [Access local copy here](https://sertel.github.io/files/" + b["local"] + "){:target=\"_blank\"}\n"
 
             md_filename = os.path.basename(md_filename)
 
