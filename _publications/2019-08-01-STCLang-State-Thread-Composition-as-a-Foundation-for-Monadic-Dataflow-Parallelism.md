@@ -6,7 +6,7 @@ date: 2019-08-01
 venue: 'In the proceedings of Proceedings of the 12th ACM SIGPLAN International Symposium on Haskell'
 paperurl: 'http://doi.acm.org/10.1145/3331545.3342600'
 citation:
-' <span style="font-family:Arial; font-size:4em;"> Sebastian Ertel,  Justus Adam,  Norman Rink,  Andr{\&apos;e}s Goens,  Jeronimo Castrillon, &quot;STCLang: State Thread Composition as a Foundation for Monadic Dataflow Parallelism.&quot; In the proceedings of Proceedings of the 12th ACM SIGPLAN International Symposium on Haskell, 2019.'</span>
+<span style="font-family:Arial; font-size:4em;">' Sebastian Ertel,  Justus Adam,  Norman Rink,  Andr{\&apos;e}s Goens,  Jeronimo Castrillon, &quot;STCLang: State Thread Composition as a Foundation for Monadic Dataflow Parallelism.&quot; In the proceedings of Proceedings of the 12th ACM SIGPLAN International Symposium on Haskell, 2019.'</span>
 ---
 [Access paper here](http://doi.acm.org/10.1145/3331545.3342600){:target="_blank"}
 
