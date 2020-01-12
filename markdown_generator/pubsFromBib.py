@@ -47,7 +47,7 @@ html_escape_table = {
     "&": "&amp;",
     '"': "&quot;",
     "'": "&apos;",
-    "\'{e}" : "é"
+    "{\&apos;e}" : "é"
     }
 
 def html_escape(text):
