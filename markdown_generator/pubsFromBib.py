@@ -136,7 +136,7 @@ for pubsource in publist:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
-            md += "\ncitation:\n'" + html_escape(citation) + "'"
+            md += "\ncitation: '\n" + html_escape(citation) + "'"
 
             md += "\n---"
 
@@ -151,7 +151,7 @@ for pubsource in publist:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
             if "local" in b:
-                md += "\n[Access local copy here](" + b["local"] + "){:target=\"_blank\"}\n"
+                md += "\n[Access local copy here](files/" + b["local"] + "){:target=\"_blank\"}\n"
 
             md_filename = os.path.basename(md_filename)
 
