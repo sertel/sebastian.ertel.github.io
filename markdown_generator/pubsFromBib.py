@@ -46,7 +46,8 @@ publist = {
 html_escape_table = {
     "&": "&amp;",
     '"': "&quot;",
-    "'": "&apos;"
+    "'": "&apos;",
+    "\'{e}" : "'{e}"
     }
 
 def html_escape(text):
@@ -148,6 +149,9 @@ for pubsource in publist:
                 md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
+
+            if "local" in b:
+                md += "[Access local copy here](" + b["local"] + "){:target=\"_blank\"}\n"
 
             md_filename = os.path.basename(md_filename)
 

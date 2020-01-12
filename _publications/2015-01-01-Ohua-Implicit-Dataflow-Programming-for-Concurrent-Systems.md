@@ -8,3 +8,4 @@ paperurl: 'http://doi.acm.org/10.1145/2807426.2807431'
 citation: ' Sebastian Ertel,  Christof Fetzer,  Pascal Felber, &quot;Ohua: Implicit Dataflow Programming for Concurrent Systems.&quot; In the proceedings of Proceedings of the Principles and Practices of Programming on The Java Platform, 2015.'
 ---
 [Access paper here](http://doi.acm.org/10.1145/2807426.2807431){:target="_blank"}
+[Access local copy here](ohua_pppj_2015.pdf){:target="_blank"}
